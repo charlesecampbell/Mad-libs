@@ -302,9 +302,8 @@ body{
 
 .containerbutton:hover {
     background-color: blue;
-}
-    font-family: "Comic Sans", cursive;
-}
+font-family: "Comic Sans", cursive;
+}   
 
 #button2 {
     background-color: #EEBE14;
@@ -346,3 +345,13 @@ form {
     line-height: 100px
 
 }
+
+
+#res {
+    display: inline-block;
+}
+
+#fake {
+    background-color: #357688;
+}
+
