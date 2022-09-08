@@ -1,19 +1,21 @@
+<!--Charles created the index.html page -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-<style>
-    .button:hover {
-        background-color:blue;
-        
-    }
-</style>
+    <!--Charles added and styled the nav buttons-->
+    <style>
+        .button:hover {
+            background-color: blue;
+        }
+    </style>
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Story Game</title>
     <header>
+        <!--Charles added the 4 buttons with links to their pages -->
         <nav>
             <a class="button" href="Halloween.html">Halloween</a>
             <a class="button" href="cat.html">Cats</a>
@@ -22,7 +24,9 @@
         </nav>
     </header>
 </head>
+
 <body>
+    <!--Charles added the title and description-->
     <h1 id="main">Story Game</h1>
     <fieldset div class="fieldset-container">
         <h2>Welcome To Story Game!</h2>
@@ -30,42 +34,45 @@
     <fieldset>
         <h3>
             <p> Story Game is a reading and learning game that helps improve student's
-                reading and comprehension 
+                reading and comprehension
                 <br> skills by playing a word game that requires creativity and
-                imagination to build their own stories.</p>
-   <h3><p>Wanna Play?</p>
-            <p>Select Cat, Dog, Halloween or Build-Your-Own to Play</p></h3>
-        </fieldset>
+                imagination to build their own stories.
+            </p>
+            <h3>
+                <p>Wanna Play?</p>
+                <p>Select Cat, Dog, Halloween or Build-Your-Own to Play</p>
+            </h3>
+    </fieldset>
 
-        <section id="image-section">
+    <section id="image-section">
+<!--Charles added and styled the images and buttons with links-->
 
-            
-            <div class="image-container"><img src="asset/cat-image.jpg" onclick="location.href='cat.html'">
-                <input class="containerbutton" type="button" onclick="location.href='cat.html'" value="Play Cat Story Game">
-            </div>
+        <div class="image-container"><img src="asset/cat-image.jpg" onclick="location.href='cat.html'">
+            <input class="containerbutton" type="button" onclick="location.href='cat.html'" value="Play Cat Story Game">
+        </div>
 
-            <div class="image-container"><img src="asset/dog-image.jpg" onclick="location.href='dog.html'">
-                <input class="containerbutton" type="button" onclick="location.href='dog.html'" value="Play Dog Story Game">
-            </div>
+        <div class="image-container"><img src="asset/dog-image.jpg" onclick="location.href='dog.html'">
+            <input class="containerbutton" type="button" onclick="location.href='dog.html'" value="Play Dog Story Game">
+        </div>
 
+        <div class="image-container"><img src="asset/halloween-image.jpg" onclick="location.href='Halloween.html'">
 
+            <input id="button3" type="button" onclick="location.href='Halloween.html'"
+                value="Play Halloween Story Game">
+        </div>
 
-            <div class="image-container"><img src="asset/halloween-image.jpg" onclick="location.href='Halloween.html'">
+        <div class="image-container"><img src="asset/makemyownstory.png" onclick="location.href='editor.html'">
+            <input class="containerbutton" type="button" onclick="location.href='editor.html'"
+                value="Make My Own Story Game">
+        </div>
+    </section>
+    <main>
 
-                <input id="button3" type="button" onclick="location.href='Halloween.html'"
-                    value="Play Halloween Story Game">
-            </div>
-
-            <div class="image-container"><img src="asset/makemyownstory.png" onclick="location.href='editor.html'">
-                <input class="containerbutton" type="button" onclick="location.href='editor.html'" value="Make My Own Story Game">
-            </div>
-        </section>
-        <main>
-
-        </main>
-        <script src="app.js"></script>
-        <script src="editor.js"></script>
+    </main>
+    <script src="app.js"></script>
+    <script src="editor.js"></script>
 </body>
+<!--Charles added and styled the footer and information-->
 <fieldset>Story Game&#169; 2022 by Charles Campbell, Sage Jasinsky, Mahad Ali and Jordan Kwan <footer></footer>
 </fieldset>
 

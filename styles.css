@@ -35,12 +35,6 @@ body {
 }
 
 form {
-    /* margin: 0 auto; */
-    /* width: 55%;
-    background-color: rgba(10, 247, 89, 0.277);
-    text-align: center;
-    padding: 1em 0 .1em 0; */
-    /* border: .1px solid gray;  */
     border: .1px solid rgb(105, 156, 43);
     text-align: center;
     background-color: #4DA8C3;
@@ -72,7 +66,7 @@ form {
     font-family: "Comic Sans", cursive;
     font-size: 30px;
 }
-
+/*Charles added hover to buttons*/
 .button:hover {
     background-color: blue;
     transition: 0.7s;
@@ -85,7 +79,6 @@ form {
 }
 
 h1 {
-    /* border: thin solid black; */
     width: 200px;
     margin: 20px auto;
     padding-top: 10px;
@@ -172,9 +165,7 @@ body{
 .text-input:required{
     border: solid rgb(230, 115, 115) 5px;
 }
-/* #inOne:required:invalid{
-    border: solid rgb(230, 115, 115) 5px; */
-/* } */
+
 .card {
     display: flex;
     flex-direction: column;
@@ -266,16 +257,7 @@ body{
 }
 /* End Sage edits */
 
-/* Jordan's Edits*/ 
-
-/* #result-btn {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    justify-content: center;
-    font-size: large;
-    background-color: #EEBE14; font-size: larger;
-    font-family: "Comic Sans", cursive; */
-    
+/* Jordan's Edits*/   
 .btn-primary {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -289,6 +271,7 @@ body{
     padding: 10px;
     width: 200px;
 }
+/*Charles added the buttons and their styles*/
 .btn-primary:hover{
  background-color: #fedf70;
  color: #4c4e50;
@@ -322,7 +305,7 @@ font-family: "Comic Sans", cursive;
     font-size: larger;
     font-family: "Comic Sans", cursive;
 }
-
+/* */
 .instructions {
     border: thin solid black;
     width: 420px;
@@ -355,3 +338,9 @@ form {
     background-color: #357688;
 }
 
+img:hover {
+    animation: spinner 1.5s linear;
+}
+@keyframes spinner {
+    100% { transform: rotate(360deg) }
+  }

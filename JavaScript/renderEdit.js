@@ -17,7 +17,7 @@ function makeWords () {
     // console.log(wordBank);
     let wordOne = localStorage.getItem('Build');
     let wordBank = JSON.parse(wordOne);
-    console.log(wordBank)
+    console.log(wordBank);
     
     let firstStory = localStorage.getItem('sentenceOne');
     let secondStory = localStorage.getItem('sentenceTwo');

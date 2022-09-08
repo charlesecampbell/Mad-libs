@@ -1,4 +1,4 @@
-let dogOrigin = localStorage.getItem('Dog')
+let dogOrigin = localStorage.getItem('Dog');
 let catOrigin = localStorage.getItem('Cat');
 let halloweenOrigin = localStorage.getItem('Halloween');
 //get the items and makes them booleans instead of strings
@@ -29,9 +29,9 @@ let pTwentyOne = document.getElementById('TwentyOne');
 let pTwentyTwo = document.getElementById('TwentyTwo');
 let pTwentyThree = document.getElementById('TwentyThree');
 let pTwentyFour = document.getElementById('TwentyFour');
-let pTwentyFive = document.getElementById('TwentyFive');
-let pTwentySix = document.getElementById('TwentySix');
-let pTwentySeven = document.getElementById('TwentySeven');
+// let pTwentyFive = document.getElementById('TwentyFive');
+// let pTwentySix = document.getElementById('TwentySix');
+// let pTwentySeven = document.getElementById('TwentySeven');
 
 
 function origin (){
@@ -75,6 +75,7 @@ function origin (){
     }else if (cat === true){
         //if we came from cat
 
+
         let catwords = localStorage.getItem('Catword');
         let value = JSON.parse(catwords);
 
@@ -112,7 +113,7 @@ function origin (){
         let halloweenWords = localStorage.getItem('HalloweenWords');
         let values = JSON.parse(halloweenWords);
 
-        pOne.textContent ='I can\'t believe it\s already';
+        pOne.textContent ='I can\'t believe it\'s already';
         pTwo.textContent = values.inOne;
         pThree.textContent = '! I can\'t wait to put on my';
         pFour.textContent = values.inTwo;
@@ -133,16 +134,14 @@ function origin (){
         pNineteen.textContent = '. Finally, all of my';
         pTwenty.textContent = '';
         pTwentyOne.textContent = 'are ready to go!';
-        
+
         //change <p> Halloween story and halloween variables
 
         console.log('halloween is true');
         halloween = false;
         let stringHallo = JSON.stringify(halloween);
         localStorage.setItem('Halloween', stringHallo);
-    }else{
-
     }
 }
 
-origin()
+origin();
