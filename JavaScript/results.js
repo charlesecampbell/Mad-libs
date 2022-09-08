@@ -25,13 +25,13 @@ let pSeventeen = document.getElementById('Seventeen');
 let pEighteen = document.getElementById('Eighteen');
 let pNineteen = document.getElementById('Nineteen');
 let pTwenty = document.getElementById('Twenty');
-let pTwentyOne = document.getElementById('TwentyOne');
-let pTwentyTwo = document.getElementById('TwentyTwo');
-let pTwentyThree = document.getElementById('TwentyThree');
-let pTwentyFour = document.getElementById('TwentyFour');
-let pTwentyFive = document.getElementById('TwentyFive');
-let pTwentySix = document.getElementById('TwentySix');
-let pTwentySeven = document.getElementById('TwentySeven');
+let pTwentyOne = document.getElementById('Twentyone');
+let pTwentyTwo = document.getElementById('Twentytwo');
+let pTwentyThree = document.getElementById('Twentythree');
+let pTwentyFour = document.getElementById('Twentyfour');
+let pTwentyFive = document.getElementById('Twentyfive');
+let pTwentySix = document.getElementById('Twentysix');
+let pTwentySeven = document.getElementById('Twentyseven');
 
 
 function origin (){
@@ -61,21 +61,19 @@ function origin (){
         pEighteen.textContent = '. I have no idea what I\'m going to do about this. I do know, however, that I need to punish my pet! I was considering';
         pNineteen.textContent = values.inTen;
         pTwenty.textContent = 'him/her, but I felt that was a bit';
-        pTwentyone.textContent = values.inEleven;
+        pTwentyOne.textContent = values.inEleven;
         pTwentyTwo.textContent = '. Maybe I should let it slide and try to calm down by eating my comfort food';
-        pTwentythree.textContent = values.inTwelve;
-        ptwentyfour.textContent = values.inThirteen;
+        pTwentyThree.textContent = values.inTwelve;
+        pTwentyFour.textContent = values.inThirteen;
         //change <p> to the dog story and dog variables
-        pOne.textContent = 'catOne.value';
+        
 
-
-        console.log('dog is true')
+        console.log('dog is true');
         dog = false;
         let stringDog = JSON.stringify(dog);
         localStorage.setItem('Dog', stringDog)
     }else if (cat === true){
         //if we came from cat
-        pOne
         //change <p> to cat story and cat variables
        
         console.log('cat is true')
@@ -85,7 +83,7 @@ function origin (){
     }else if (halloween === true){
         //if we came from halloween
 
-
+        
         //change <p> Halloween story and halloween variables
 
         console.log('halloween is true')

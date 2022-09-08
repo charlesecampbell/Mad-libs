@@ -266,7 +266,7 @@ body{
 }
 /* End Sage edits */
 
-/* Jordan's Edits*/
+/* Jordan's Edits*/ 
 
 /* #result-btn {
     margin-top: 10px;
@@ -274,7 +274,7 @@ body{
     justify-content: center;
     font-size: large;
     background-color: #EEBE14; font-size: larger;
-    font-family: "Comic Sans", cursive;
+    font-family: "Comic Sans", cursive; */
     
 .btn-primary {
     margin-top: 10px;
@@ -324,11 +324,11 @@ body{
     font-family: "Comic Sans", cursive;
 }
 
-/* .instructions {
+.instructions {
     border: thin solid black;
     width: 420px;
     margin-bottom: 10px;
-} */
+}
 
 
 .form-group-row {
