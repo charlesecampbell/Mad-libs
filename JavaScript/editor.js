@@ -42,7 +42,6 @@ sub.addEventListener('click', function () {
         dropTwo.required = false;
         dropThree.required = false;
         dropFour.required = false;
-        // window.location.href = 'editor-results.html';
     }
 
     if (typeOne.value === '') {
@@ -59,12 +58,9 @@ sub.addEventListener('click', function () {
         typeTwo.required = false;
         typeThree.required = false;
         typeFour.required = false;
-        // typeOne.required = false;
-        // window.location.href = 'editor-results.html';
     }
 
     if (checkOne === true && checkTwo === true) {
         window.location.href = 'editor-results.html';
     }
 });
-

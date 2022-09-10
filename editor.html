@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Build-Your-Own</title>
+        <title>Build My Own</title>
         <link rel="stylesheet" href="styles.css">
     </head>
+
     <body>
         <nav>
             <a class="button" href="index.html">Quit</a>
         </nav>
 
         <div class="instructions">
-        <h1>How to play</h1>
-        <p>Here you can create your own Story. Type in your story then when you want someone to put in a random word 
-            you can choose what kind of a word you want them to type by selecting it from the dropdown menu. Have fun 
+            <h1 id="new">How to play</h1>
+            <p id="instructions">Here you can create your own Story. Type in your story then when you want someone to put in a random word 
+             you can choose what kind of a word you want them to type by selecting it from the dropdown menu. Have fun 
             and be creative.
             <br><br>
             <strong>Noun</strong> - A noun is a person, place, or thing.
@@ -23,11 +24,11 @@
             nouns shape,size,color,or age along with many other descriptors.
             <br><br>
             <strong>Adverb</strong> - An adverb modifies a verb to end in -ly such as quietly, softly, or hastily.
-        </p>
+            </p>
         </div>
 
 
-            <div class="card">
+        <div class="card">
             <input type="text" placeholder="Type your story here" class="text-input" id="inOne">
             <select name="word" id="dropOne" class="drop-menue">
                 <option value="" disabled selected hidden>Choose a word type</option>
@@ -35,10 +36,10 @@
                 <option value="Adjective">Adjective</option>
                 <option value="Verb">Verb</option>
                 <option value="Adverb">Adverb</option>
-                </select>
-            </div>
+            </select>
+        </div>
 
-            <div class="card">
+        <div class="card">
             <input type="text" placeholder="Type your story here" class="text-input" id="inTwo">
             <select name="word" id="dropTwo" class="drop-menue">
                 <option value="" disabled selected hidden>Choose a word type</option>
@@ -46,10 +47,10 @@
                 <option value="Adjective">Adjective</option>
                 <option value="Verb">Verb</option>
                 <option value="Adverb">Adverb</option>
-                </select>
-            </div>
+            </select>
+        </div>
 
-            <div class="card">
+        <div class="card">
             <input type="text" placeholder="Type your story here" class="text-input" id="inThree">
             <select name="word" id="dropThree" class="drop-menue">
                 <option value="" disabled selected hidden>Choose a word type</option>
@@ -57,25 +58,24 @@
                 <option value="Adjective">Adjective</option>
                 <option value="Verb">Verb</option>
                 <option value="Adverb">Adverb</option>
-                </select>
-            </div>
+            </select>
+        </div>
 
-            <div class="card">
-                <input type="text" placeholder="Type your story here" class="text-input" id="inFour">
-                <select name="word" id="dropFour" class="drop-menue">
-                    <option value="" disabled selected hidden>Choose a word type</option>
-                    <option value="Noun">Noun</option>
-                    <option value="Adjective">Adjective</option>
-                    <option value="Verb">Verb</option>
-                    <option value="Adverb">Adverb</option>
-                    </select>
-            </div>
+        <div class="card">
+            <input type="text" placeholder="Type your story here" class="text-input" id="inFour">
+            <select name="word" id="dropFour" class="drop-menue">
+                <option value="" disabled selected hidden>Choose a word type</option>
+                <option value="Noun">Noun</option>
+                <option value="Adjective">Adjective</option>
+                <option value="Verb">Verb</option>
+                <option value="Adverb">Adverb</option>
+            </select>
+        </div>
 
-            <div id="makestory">
-            <button id="usr-sub">Make story</button>
-            </div>
+        <div id="makestory">
+            <button id="usr-sub">Make Story</button>
+        </div>
         
-
         <script src="JavaScript/editor.js"></script>
     </body>
 </html>

@@ -8,93 +8,87 @@
 
     <title>Halloween Story</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- <script src="app.js"></script> -->
-
-    <nav>
-    <a class="button" href="index.html">Quit</a>
-    <a class="button" href="dog.html">Dog</a>
-    <a class="button" href="cat.html">Cat</a>
-    </nav>
-
 </head>
 
 <body>
+    <nav>
+        <a class="button" href="index.html">Quit</a>
+        <a class="button" href="dog.html">Dog</a>
+        <a class="button" href="cat.html">Cats</a>
+    </nav>
 
     <div id="content">
-        <h1 class="hallo">The Story about Halloween</h1>
+        <h1 class="hallo">The Story About Halloween</h1>
         <p class="instructions"><strong>Instructions:</strong> Fill in the blanks for a fun halloween story. Pay close attention to the type of words to use.</p>
-    <div id="fake">
-
+        <form action="" onsubmit="submitInputs();return false">
             <div class="form-group-row">
-                <label for="Holiday"> Holiday</label>
+                <label id="halo" for="Holiday"> Holiday</label>
                 <div class="col-sm-7">
                     <input type="text" id="input1" name="Holiday" required>
                 </div>
             </div>
 
             <div class="form-group-row">
-                <label for="costume"> Halloween Costume</label>
+                <label id="halo" for="costume"> Halloween Costume</label>
                 <div class="col-sm-7">
                     <input type="text" id="input2" name="costume" required>
                 </div>
             </div>
 
             <div class="form-group-row">
-                <label for="place">Place</label>
+                <label id="halo"  for="place">Place</label>
                 <div class="col-sm-7">
                     <input type="text" id="input3" name="place" required>
                 </div>
             </div>
 
             <div class="form-group-row">
-                <label for="person"> Person</label>
+                <label id="halo" for="person"> Person</label>
                 <div class="col-sm-7">
                     <input type="text" id="input4" name="person" required>
                 </div>
             </div>
 
             <div class="form-group-row">
-                <label for="Adjective"> Adjective</label>
+                <label id="halo" for="Adjective"> Adjective</label>
                 <div class="col-sm-7">
                     <input type="text" id="input5" name="Adjective" required>
                 </div>
             </div>
 
             <div class="form-group-row">
-                <label for="verb"> Verb</label>
+                <label id="halo" for="verb"> Verb</label>
                 <div class="col-sm-7">
                     <input type="text" id="input6" name="verb" required>
                 </div>
             </div>
 
             <div class="form-group-row">
-                <label for="Adjective2"> Adjective</label>
+                <label id="halo" for="Adjective2"> Adjective</label>
                 <div class="col-sm-7">
                     <input type="text" id="input7" name="Adjective2" required>
                 </div>
             </div>
 
             <div class="form-group-row">
-                <label for="food"> Food</label>
+                <label id="halo" for="food"> Food</label>
                 <div class="col-sm-7">
                     <input type="text" id="input8" name="food" required>
                 </div>
             </div>
 
             <div class="form-group-row">
-                <label for="PLURAL">Plural Noun</label>
+                <label id="halo" for="PLURAL">Plural Noun</label>
                 <div class="col-sm-7">
                     <input type="text" id="input9" name="PLURAL" required>
                 </div>
             </div>
 
             <div class="form-group row">
-            <button id="halloweenBtn" class="btn-primary" type="submit">See Story</button>
-
+                <button id="halloweenBtn" class="btn-primary" type="submit">See Story</button>
             </div>
-        <div>
-    </div>
-    
+
+        </form>
     <script src="JavaScript/halloween.js"></script>
 </body>
 
